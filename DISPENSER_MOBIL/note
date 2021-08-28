@@ -1,0 +1,9 @@
+1. Saat ada kendaraan 
+	* Sensor VLD Menerima Sinyal HIGH
+		1.1. Saat Tombol Hijau ditekan	  ---> NODE MCU Send to db --> lalu memanggil query /funtions (Open Gate and capture)
+		1.2 Saat Tombol Merah ditekan 	  ---- NODE MCU Send to db --> lalu memanggil query /funtions (Warning auth)
+2. Saat Tidak ada Kendaraan
+
+	* sAAT vld mENERIMA sINYAL LOW
+		1.1. Saat Tombol Hijau ditekan	  ---- NODE MCU Send to db --> lalu memanggil query /funtions (Warning auth)
+		1.2 Saat Tombol Merah ditekan 	  ---- NODE MCU Send to db --> lalu memanggil query /funtions (Warning auth)
