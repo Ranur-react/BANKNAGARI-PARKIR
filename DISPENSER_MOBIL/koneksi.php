@@ -3,8 +3,8 @@
 	//Koneksi ke DBMS
 	$severname = "localhost";
 	$username = "root";
-		$password = "Padri0@@@";
-	// $password = "";
+	//	$password = "Padri0@@@";
+	 $password = "";
 	$dbname = "db_banknagari";
 
 	$conn = new mysqli($severname, $username, $password, $dbname);

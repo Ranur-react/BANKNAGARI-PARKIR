@@ -1,0 +1,41 @@
+// function OnlineMobil() {
+// 	var buton=$('.btnParkirMobil');
+// 	var Informasi=$('.Informasi');
+// 	                $.ajax({
+//                     url: 'http://localhost/Entry-Gate-Bank-Nagari/Web-Services/SOCKET_PARKIR_V3/index.php',
+//                     type: "post",
+//                     dataType: "json",
+//                     cache: false,
+//                     beforeSend: function(response) {
+// 						// alert("Before");
+//                         buton.attr('disabled', 'disabled');
+//                             buton.removeClass('btn-danger');
+//                             buton.addClass('btn-success');
+//                         buton.html('<i class="fa fa-spin fa-spinner"></i> Online');
+//                         Informasi.html(succesOnline);
+
+//                     },
+//                     success: function(response) {
+//                     	if(response.status){
+//                     		console.log("Mobil succes Response")
+// 	                    	console.log(response)
+// 	                        // OnlineMobil();
+//                     	}else{
+                    
+//                     	console.log("Filed Response")
+//                     	console.log(response)
+//   						console.log(response);
+//                         Informasi.html(GagalOnline);
+//                         buton.removeAttr('disabled');
+//   						buton.removeClass('btn-success');
+//   						buton.addClass('btn-danger');
+//                         buton.html('<i class="fa fa-power-off"></i>');
+// 	                    }
+//                 		<?php  
+// 		            	if (level() == 1) { ?>
+// 								window.focus()
+// 	            		<?php } ?>
+//                     },
+                 
+//                 });
+// }
